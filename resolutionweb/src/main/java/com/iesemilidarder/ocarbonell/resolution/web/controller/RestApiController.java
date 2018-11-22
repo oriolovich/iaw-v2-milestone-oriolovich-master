@@ -1,6 +1,9 @@
 package com.iesemilidarder.ocarbonell.resolution.web.controller;
 
 
+import com.iesemilidarder.ocarbonell.resolution.core.data.Flights;
+import com.iesemilidarder.ocarbonell.resolution.core.data.Product;
+import com.iesemilidarder.ocarbonell.resolution.core.data.Restaurant;
 import com.iesemilidarder.ocarbonell.resolution.web.service.CallMeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.server.Session;
@@ -13,7 +16,7 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * com.iesemilidarder.asoto.resolution.web.controller
+ * com.iesemilidarder..resolution.web.controller
  * Class RestApiController
  * By berto. 14/11/2018
  */
@@ -21,15 +24,19 @@ import java.util.UUID;
 @RequestMapping("/api/rest")
 public class RestApiController {
 
+    
     @Autowired
     CallMeService callService;
+    
 
     @RequestMapping("/greeting")
-    public Product greeting(@RequestParam(value = "name", defaultValue = "World") String name,
-                            HttpSession session) {
+    public
+    Product greeting(@RequestParam(value = "name", defaultValue = "World") String name,
+                     HttpSession session) {
         //session.getServletContext()
         callService.callMe();
-        Restaurant = new Restaurant();
+        Flights = new Flights();
+        Product aux;
         aux.setName("hi");
         return aux;
     }
@@ -41,7 +48,7 @@ public class RestApiController {
      * @return
      */
     @RequestMapping("/add")
-    public Product addProduct(
+    public Product ddProduct(
             @RequestParam String name,
             @RequestParam String description,
             @RequestParam String img,
