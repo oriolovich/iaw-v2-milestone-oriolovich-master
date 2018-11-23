@@ -1,27 +1,26 @@
 package com.iesemilidarder.ocarbonell.resolution.core.DataHelper;
 
 
-
-import com.iesemilidarder.ocarbonell.activities.data.*;
+import com.iesemilidarder.ocarbonell.resolution.core.data.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public
-class ListofMeans {
+class ListofProduct {
 
-    private static List<Means> data = new ArrayList<>();
+    private static List <Product > data = new ArrayList<>();
 
     public static
-    List<com.iesemilidarder.ocarbonell.activities.data.Means> getData() {
+    List<Product> getData() {
         doInit();
         return data;
 
     }
 
     public static
-    void insert(com.iesemilidarder.ocarbonell.activities.data.Means means) {
-        data.add(means);
+    void insert (Product product )  {
+        data.add(product);
     }
 
     public static

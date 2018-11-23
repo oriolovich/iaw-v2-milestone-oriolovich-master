@@ -7,12 +7,27 @@ public class Playground {
         int numItems = 6;
         for(int i = 0;i<numItems;i++){
             System.out.println("Iteration"+1);
-            Activity item;
-            item = new Activity();
+            Activities item;
+            item = new Activities();
             item.setName("Element"+ i);
             item.setDuration(i*10);
-            item.add(item);
+            item.add();
         }
         System.out.println("The end, my only freind");
+    }
+
+    private static
+    class Activities {
+        public
+        void setName (String s) {
+        }
+
+        public
+        void setDuration (int i) {
+        }
+
+        public
+        void add ( ) {
+        }
     }
 }

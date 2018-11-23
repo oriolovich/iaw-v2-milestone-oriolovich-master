@@ -4,6 +4,7 @@ public class Hotels extends Product{
 
     public Hotels() {
 
+
     }
 
     public void doStay() {

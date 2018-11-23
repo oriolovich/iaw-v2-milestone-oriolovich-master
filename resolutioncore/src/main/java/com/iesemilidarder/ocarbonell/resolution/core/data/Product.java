@@ -9,21 +9,25 @@ import java.util.UUID;
  */
 public abstract class Product {
     private UUID id = UUID.randomUUID();
-    private Double precio;
     private String name;
+    private Double price;
     private String description;
     private String imgUri;
+
+
 
     public UUID getId() {
         return id;
     }
 
-    public Double getPrecio() {
-        return precio;
+    public
+    Double getPrice ( ) {
+        return price;
     }
 
-    public void setPrecio(Double precio) {
-        this.precio = precio;
+    public
+    void setPrice (Double price) {
+        this.price = price;
     }
 
     public String getName() {

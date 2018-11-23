@@ -16,13 +16,12 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * com.iesemilidarder..resolution.web.controller
- * Class RestApiController
- * By berto. 14/11/2018
+ *
  */
 @RestController
 @RequestMapping("/api/rest")
-public class RestApiController {
+public
+class RestApiController {
 
     
     @Autowired
@@ -32,21 +31,15 @@ public class RestApiController {
     @RequestMapping("/greeting")
     public
     Product greeting(@RequestParam(value = "name", defaultValue = "World") String name,
-                     HttpSession session) {
+                     HttpSession session){
         //session.getServletContext()
         callService.callMe();
-        Flights = new Flights();
-        Product aux;
+        Flights aux = new Flights() ;
         aux.setName("hi");
         return aux;
     }
 
-    /**
-     * @param name        param input name=name
-     * @param description param input name=description
-     * @param img
-     * @return
-     */
+
     @RequestMapping("/add")
     public Product ddProduct(
             @RequestParam String name,
@@ -58,7 +51,7 @@ public class RestApiController {
         product.setName(name);
         product.setDescription(description);
         product.setImgUri(img);
-        product.setPrecio(price);
+        product.setPrice(price) ;
         DataHelper.addItem(product);
         return product;
     }

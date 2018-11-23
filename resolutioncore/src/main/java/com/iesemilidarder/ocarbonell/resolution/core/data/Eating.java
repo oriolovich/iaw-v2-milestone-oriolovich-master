@@ -4,4 +4,6 @@ public
 class Eating extends Product {
 
 
-}
+
+    }
+
