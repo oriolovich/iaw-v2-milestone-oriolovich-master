@@ -1,4 +1,4 @@
-package com.iesemilidarder.ocarbonell.resolution.core.DataHelper;
+package com.iesemilidarder.ocarbonell.resolution.web.controller;
 
 
 import com.iesemilidarder.ocarbonell.resolution.core.data.Flights;
@@ -22,4 +22,5 @@ class ProductController {
 
 
     }
+
 }

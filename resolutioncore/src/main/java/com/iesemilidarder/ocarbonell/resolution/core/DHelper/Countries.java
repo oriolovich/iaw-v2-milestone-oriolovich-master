@@ -1,4 +1,4 @@
-package com.iesemilidarder.ocarbonell.resolution.core.DataHelper;
+package com.iesemilidarder.ocarbonell.resolution.core.DHelper;
 
 /**
  * Com posar llista de països amb JavaScript?

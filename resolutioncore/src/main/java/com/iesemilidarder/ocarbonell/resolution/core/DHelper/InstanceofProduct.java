@@ -1,4 +1,4 @@
-package com.iesemilidarder.ocarbonell.resolution.core.DataHelper;
+package com.iesemilidarder.ocarbonell.resolution.core.DHelper;
 
 
 import com.iesemilidarder.ocarbonell.resolution.core.data.*;

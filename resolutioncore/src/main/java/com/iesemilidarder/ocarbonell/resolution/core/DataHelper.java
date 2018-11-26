@@ -1,4 +1,4 @@
-package com.iesemilidarder.ocarbonell.resolution.web.controller;
+package com.iesemilidarder.ocarbonell.resolution.core;
 
 import com.iesemilidarder.ocarbonell.resolution.core.data.Diving;
 import com.iesemilidarder.ocarbonell.resolution.core.data.Lying;
@@ -13,8 +13,7 @@ import java.util.UUID;
 
 
 
-public
-    class DataHelper {
+public class DataHelper {
         public static Integer MAX_NUM=50;
         private static
         List<Product> products = new ArrayList<>();

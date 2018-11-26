@@ -1,12 +1,14 @@
 package com.iesemilidarder.ocarbonell.resolution.web.controller;
 
 
+import com.iesemilidarder.ocarbonell.resolution.core.DataHelper;
 import com.iesemilidarder.ocarbonell.resolution.core.data.Flights;
 import com.iesemilidarder.ocarbonell.resolution.core.data.Product;
 import com.iesemilidarder.ocarbonell.resolution.core.data.Restaurant;
 import com.iesemilidarder.ocarbonell.resolution.web.service.CallMeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.server.Session;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -31,7 +33,7 @@ class RestApiController {
     @RequestMapping("/greeting")
     public
     Product greeting(@RequestParam(value = "name", defaultValue = "World") String name,
-                     HttpSession session){
+                     Model model, HttpSession session){
         //session.getServletContext()
         callService.callMe();
         Flights aux = new Flights() ;

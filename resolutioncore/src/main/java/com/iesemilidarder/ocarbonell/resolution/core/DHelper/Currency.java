@@ -1,6 +1,4 @@
-package com.iesemilidarder.ocarbonell.resolution.core.DataHelper;
-
-
+package com.iesemilidarder.ocarbonell.resolution.core.DHelper;
 
 /**
  * Com posar llista de països amb JavaScript?
@@ -12,11 +10,12 @@ import java.lang.annotation.*;
 @Target(ElementType.METHOD)
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
-@interface Companies {
-    String companieName();
+@interface Currency {
+    String currencyname();
 
-    String bussinessType();
+    int currencyPrice();
 
-    String Ubication();
+    String countryofCurrency();
 }
+
 
