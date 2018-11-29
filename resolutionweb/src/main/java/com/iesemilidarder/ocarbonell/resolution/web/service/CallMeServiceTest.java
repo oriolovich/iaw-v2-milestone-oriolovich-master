@@ -11,6 +11,7 @@ class CallMeServiceTest {
 
     public
     CallMeService getCallMeService ( ) {
+        getCallMeService();
         return callMeService;
     }
 

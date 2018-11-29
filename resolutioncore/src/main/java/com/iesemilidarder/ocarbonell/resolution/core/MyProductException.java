@@ -3,6 +3,7 @@ package com.iesemilidarder.ocarbonell.resolution.core;
 public class MyProductException extends RuntimeException {
 
     public MyProductException (){
+
         super();
     }
 

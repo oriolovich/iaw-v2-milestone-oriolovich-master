@@ -7,6 +7,12 @@ public
 class CallMeServiceProperties {
     public
     String getMessage ( ) {
+
+        Integer imei;
+        Integer  countryCode;
+        Integer areaCode;
+        Integer telephoneNumber;
+
         return message;
     }
 
