@@ -35,6 +35,8 @@ class RestApiController {
     Product greeting(@RequestParam(value = "name", defaultValue = "World") String name,
                      Model model, HttpSession session){
 
+
+        model.addAttribute(getClass() ) ;
         session.getServletContext();
         callService.callMe();
         Flights aux = new Flights() ;

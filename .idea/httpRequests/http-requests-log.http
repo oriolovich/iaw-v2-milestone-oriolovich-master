@@ -1,0 +1,25 @@
+GET http://localhost:8080/actuator/info
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+###
+
+GET http://localhost:8080/actuator/info
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2018-11-27T112319.200.json
+
+###
+
+GET http://localhost:8080/actuator/info
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2018-11-27T112220.200.json
+
+###
+
+GET http://localhost:8080/Flights
+
+<> 2018-11-27T112106.200.json
+
+###
+
