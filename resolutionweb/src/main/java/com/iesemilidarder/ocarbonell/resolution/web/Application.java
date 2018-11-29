@@ -6,9 +6,9 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 /**
- * com.iesemilidarder.asoto.resolution.web
+ * com.iesemilidarder.resolution.web
  * Class Application
- * By berto. 14/11/2018
+ * By . 14/11/2018
  */
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {

@@ -16,7 +16,7 @@ public class WebController {
         List<String> data = Arrays.asList("yuhu1", "yuhu2", "yuhu3");
         //data.it
         model.addAttribute("datil",data);
-        //model.addAttribute("ip",session.get)
+        //final Model ip = model.addAttribute("ip", session.get);
         //session.getServletContext().getip
         return "index";
     }

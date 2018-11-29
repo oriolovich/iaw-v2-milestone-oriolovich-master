@@ -9,10 +9,15 @@ class CallMeServiceTest {
     @Autowired
     private CallMeService callMeService;
 
+    public
+    CallMeService getCallMeService ( ) {
+        return callMeService;
+    }
+
     @SpringBootApplication
     static class TestConfiguration{
 
     }
 
-    }
+    } 
 

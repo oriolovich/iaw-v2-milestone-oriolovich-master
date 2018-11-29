@@ -1,13 +1,11 @@
 package com.iesemilidarder.ocarbonell.resolution.web.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.web.servlet.server.Session;
 import org.springframework.stereotype.Service;
 
 /**
- * com.iesemilidarder.asoto.resolution.web.service
+ * com.iesemilidarder.resolution.web.service
  * Class CallMeService
- * By berto. 15/11/2018
+ * By  15/11/2018
  */
 @Service
 public class CallMeService {
