@@ -13,7 +13,7 @@ class ProductController {
     @RequestMapping(path ="/Flights")
     public
     Flights  getFlights(@RequestParam(value = "name", defaultValue = "Let's go") String name){
-
+        final Class <? extends String> nameClass = name.getClass();
 
 
         Flights flights = new Flights() ;

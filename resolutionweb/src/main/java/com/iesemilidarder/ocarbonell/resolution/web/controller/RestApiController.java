@@ -63,6 +63,7 @@ class RestApiController {
 
     @RequestMapping("/find")
     public Product findById(@RequestParam String uuid, Session session) {
+        session.getCookie();
         Product product = DataHelper.getItemById(UUID.fromString(uuid));
         if (product==null){
             return new Restaurant();
@@ -72,6 +73,7 @@ class RestApiController {
 
     @RequestMapping("/getAll")
     public List<Product> getAll( Session session) {
+        session.getStoreDir();
         return DataHelper.getItems();
     }
 

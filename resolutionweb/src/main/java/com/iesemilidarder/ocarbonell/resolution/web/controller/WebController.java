@@ -14,14 +14,16 @@ public class WebController {
     @RequestMapping("/")
     public String index(HttpSession session, Model model) {
         List<String> data = Arrays.asList("yuhu1", "yuhu2", "yuhu3");
-        //data.it
+        data.iterator();
         model.addAttribute("datil",data);
-        //final Model ip = model.addAttribute("ip", session.get);
-        //session.getServletContext().getip
+        final Model ip;
+        ip = model.addAttribute("ip", session.getId() );
+        session.getServletContext();
         return "index";
     }
     @RequestMapping("/macros")
     public String macroTest(HttpSession session, Model model) {
+        session.getServletContext() ;
         return "macroTest";
     }
 
