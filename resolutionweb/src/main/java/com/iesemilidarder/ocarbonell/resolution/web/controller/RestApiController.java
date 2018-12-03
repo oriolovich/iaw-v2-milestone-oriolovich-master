@@ -46,7 +46,7 @@ class RestApiController {
 
 
     @RequestMapping("/add")
-    public Product ddProduct(
+    public Product addProduct(
             @RequestParam String name,
             @RequestParam String description,
             @RequestParam String img,
