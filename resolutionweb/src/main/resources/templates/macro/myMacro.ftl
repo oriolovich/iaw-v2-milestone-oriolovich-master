@@ -26,11 +26,11 @@
                         Then, link them off to some social networking sites or contact information.</p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">
-                    <h4 class="text-white">Contact</h4>
+                    <h4 class="text-white">Contacteu</h4>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                        <li><a href="#" class="text-white">Like on Facebook</a></li>
-                        <li><a href="#" class="text-white">Email me</a></li>
+                        <li><a href="#" class="text-white">Seguiu-nos a Twitter</a></li>
+                        <li><a href="#" class="text-white">Posa un m'agrada al Facebook</a></li>
+                        <li><a href="#" class="text-white">Escriu-me</a></li>
                     </ul>
                 </div>
             </div>
