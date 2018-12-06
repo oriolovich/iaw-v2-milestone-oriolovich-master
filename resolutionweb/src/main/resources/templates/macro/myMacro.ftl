@@ -1,4 +1,4 @@
-<#macro headerLoadings title="Yeehaay">
+<#macro headerLoadings title="gggg">
     <meta charset="UTF-8">
     <title>"Voyage, voyage"</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -21,10 +21,107 @@
             <div class="row">
                 <div class="col-sm-8 col-md-7 py-4">
                     <h4 class="text-white">About</h4>
-                    <p class="text-muted">Add some information about the album below, the author, or any other
-                        background context. Make it a few sentences long so folks can pick up some informative tidbits.
-                        Then, link them off to some social networking sites or contact information.</p>
+                    <p class="text-muted">
+                    <div>
+                        <h3>Oferta de benvinguda
+                        </h3>
+                    </div>
+                    <div>
+                        <div class="fotos"><img src="/templates/public/error/img/hotel1.jpg" alt="hotelankor" style="width:250px; height:200px"><a href="#">Hotel</a></div>
+                        <div class="fotos"><img src="/templates/public/error/img/gastronomy.jpg" alt="gastronomia" style="width:250px; height:200px"><a href="#">Men&uacute; Degustaci&oacute;</a></div>
+                        <div class="fotos"><img src="/templates/public/error/img/flight.jpg" alt="volsihotels" style="width:250px; height:200px"><a href="#">Vol</a></div>
+                    </div><div class="h4">
+                        <h2>Trajectes</h2>
+                        <input type="text" id="OInput" onkeyup="FuncioO()"
+                               placeholder="Busca mitjans ..." title="Escriu-hi un nom">
+                        <ul id="Trajectes">
+                            <li><a href="#">Vols</a></li>
+                            <li><a href="#">Trens</a></li>
+                            <li><a href="#">Gastronomia</a></li>
+                            <li><a href="#">Cotxes</a></li>
+                        </ul>
+                        <script>
+                            function FuncioO(){
+                                var input, filter, ul, li, a, i;
+                                input = document.getElementById("OInput");
+                                filter = input.value.toUpperCase();
+                                ul = document.getElementById("Trajectes");
+                                li = ul.getElementsByTagName("li");
+                                for (i = 0; i < li.length; i++){
+                                    a = li[i].getElementsByTagName("a")[0];
+                                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1){
+                                        li[i].style.display = "";
+                                    }else{
+                                        li[i].style.display = "none";
+                                    }
+                                }
+                            }
+                        </script>
+                    </div>
+                </div><div class="h4">
+                    <h2>Hotels </h2>
+                    <input type="text" id="OInput" onkeyup="FuncioO()"
+                           placeholder="Busca allotjament ..." title="Escriu-hi un nom">
+                    <ul id="Hotels">
+                        <li><a href="#">Vols</a></li>
+                        <li><a href="#">Trens</a></li>
+                        <li><a href="#">Gastronomia</a></li>
+                        <li><a href="#">Cotxes</a></li>
+                    </ul>
+                    <script>
+                        function FuncioO(){
+                            var input, filter, ul, li, a, i;
+                            input = document.getElementById("OInput");
+                            filter = input.value.toUpperCase();
+                            ul = document.getElementById("Trajectes");
+                            li = ul.getElementsByTagName("li");
+                            for (i = 0; i < li.length; i++){
+                                a = li[i].getElementsByTagName("a")[0];
+                                if (a.innerHTML.toUpperCase().indexOf(filter) > -1){
+                                    li[i].style.display = "";
+                                }else{
+                                    li[i].style.display = "none";
+                                }
+                            }
+                        }
+                    </script>
                 </div>
+            </div><div class="h4">
+                <h2>Trajectes</h2>
+                <input type="text" id="OInput" onkeyup="FuncioO()"
+                       placeholder="Busca mitjans ..." title="Escriu-hi un nom">
+                <ul id="Trajectes">
+                    <li><a href="#">Vols</a></li>
+                    <li><a href="#">Trens</a></li>
+                    <li><a href="#">Gastronomia</a></li>
+                    <li><a href="#">Cotxes</a></li>
+                </ul>
+                <script>
+                    function FuncioO(){
+                        var input, filter, ul, li, a, i;
+                        input = document.getElementById("OInput");
+                        filter = input.value.toUpperCase();
+                        ul = document.getElementById("Trajectes");
+                        li = ul.getElementsByTagName("li");
+                        for (i = 0; i < li.length; i++){
+                            a = li[i].getElementsByTagName("a")[0];
+                            if (a.innerHTML.toUpperCase().indexOf(filter) > -1){
+                                li[i].style.display = "";
+                            }else{
+                                li[i].style.display = "none";
+                            }
+                        }
+                    }
+                </script>
+            </div>
+            <div>
+                <div class="box"><a href="Vols">Vols </a></div>
+                <div class="box"><a href="Trens">Trens </a></div>
+                <div class="box"><a href="Hotels">Hotels</a></div>
+                <div class="box"><a href="Gastronomia">Gastronomia</a></div>
+                <div class="box"><a href="Cotxes">Lloguer Vehicles</a></div>
+                <div class="box"><a href="VolsiHotels">Vols i Hotels</a></div>
+            </div>
                 <div class="col-sm-4 offset-md-1 py-4">
                     <h4 class="text-white">Contacteu</h4>
                     <ul class="list-unstyled">

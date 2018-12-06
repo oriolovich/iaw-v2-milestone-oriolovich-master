@@ -12,11 +12,11 @@
 <body>
 <div>
     <h3>VIATGES VOYAGE ... VOLA, VIU, VEU </h3>
-    <img src="img/voyage2.jpg" alt="planeta" style="width:60px; height:60px">
+    <img src="public/error/img/voyage2.jpg" alt="planeta" style="width:60px; height:60px">
 </div>
 <br></br>
 <br></br>
-<div>
+<div id="menu2">
     <div class="box"><a href="Vols">Vols </a></div>
     <div class="box"><a href="Trens">Trens </a></div>
     <div class="box"><a href="Hotels">Hotels</a></div>
@@ -25,46 +25,46 @@
     <div class="box"><a href="VolsiHotels">Vols i Hotels</a></div>
 </div>
 
-<p id="titol">
+<p id="#titol">
 <pre><h3>
-      ALGUNES OPCIONS PER TENIR LA TEMPTACI&Oacute; DE NO TORNAR ...
+      DESTINACIONS EN OFERTA ...
       </pre></h3>
 </p>
 <br></br>
 <br></br>
 <div>
-    <div class="box4"><img src="img/angkorwat.jpg" alt="angkowat" style="width:250px; height:200px"><p id="desti">Angkor Wat</p> <p id="fulleto"> Aquest és el temple religi&oacute;s m&eacute;s  gran del m&oacute;n.Inicialment fou un Temple Khmer dedicat al d&eacute;u Vishu convertit progressivament al Budisme amb el pas dels segles.</p> <p id="preu1">1551 &euro; </p> </p></div>
-    <div class="box4"><img src="img/bali2.jpg" alt="illabali" style="width:250px; height:200px"><p id="desti">L&#39;Illa de Bali</p><p id="fulleto">Bali es troba tan sols a 3,2 km a l'est de Java i a uns 8 graus al sud de la línia de l'equador. Fa 153 km de llarg i 112 km d'ample.</p><p id="preu1"> 1440 &euro; </p></div>
-    <div class="box4"><img src="img/akshardham.jpg" alt="templeindia" style="width:250px; height:200px"><p id="desti">Akshardham, &Iacute;ndia</p><p id="fulleto"> Es tracta d&#39;un gran complex de temples hinduistes ubicats a Nova Dehli, a la &Iacute;ndia. Conegut com a <i>Dehli Akshardham</i>el recinte mostra elements interessants.</p><p id="preu1"> 1600 &euro; </p></div>
-    <div class="box4"><img src="img/murallaxinesa.jpg" alt="murallaxinesa" style="width:250px; height:200px"><p id="desti">Muralla Xinesa</p><p id="fulleto"> &Eacute;s un antic conjunt de fortificacions i muralles de pedra i terra constru&iumlaut;des per tal de protegir la Xina dels atacs de les tribus mongoles i turques. Va començar a construir-se al segle III aC </p><p id="preu1"> 1580 &euro; </p></div>
-    <div class="box4"><img src="img/petrajordana.jpg" alt="petrajordana" style="width:250px; height:200px"><p id="desti">Petra, Jord&agrave;nia</p><p id="fulleto"> fou una ciutat d'Ar&agrave;bia en la moderna Jord&agrave;nia. Fou capital dels edomites i dels nabateus i, despr&eacute;s, de la prov&iacute;ncia romana d&#39;Ar&agrave;bia Pètria; m&eacute;s tard, anomenada Palestina Salutaris i finalment Palestina Tercera.</p><p id="preu1"> 1300 &euro; </p></div>
+    <div class="box4"><img src="/templates/public/error/img/angkorwat.jpg" alt="angkowat" style="width:250px; height:200px"><p id="desti">Angkor Wat</p> <p id="#fulleto">DESMATERIALITZEU-VOS!!</p> <p id="preu1">1551 &euro; </p> </p></div>
+    <div class="box4"><img src="/templates/public/error/img/bali2.jpg" alt="illabali" style="width:250px; height:200px"><p id="desti">L&#39;Illa de Bali</p><p id="#fulleto"> ALUCINEU!!</p><p id="preu1"> 1440 &euro; </p></div>
+    <div class="box4"><img src="/templates/public/error/img/akshar.jpg" alt="templeindia" style="width:250px; height:200px"><p id="desti">Akshardham, &Iacute;ndia</p><p id="#fulleto">FACINEU-VOS!!</p><p id="preu1"> 1600 &euro; </p></div>
+    <div class="box4"><img src="/templates/public/error/img/murallaxinesa.jpg" alt="murallaxinesa" style="width:250px; height:200px"><p id="desti">Muralla Xinesa</p><p id="#fulleto">ADMIREU-VOS!! </p><p id="preu1"> 1580 &euro; </p></div>
+    <div class="box4"><img src="/templates/public/error/img/petrajordana.jpg" alt="petrajordana" style="width:250px; height:200px"><p id="desti">Petra, Jord&agrave;nia</p><p id="#fulleto"> ENAMOREU-VOS!!</p><p id="preu1"> 1300 &euro; </p></div>
 </div>
 <br></br>
-<p id="titol">
+<p id="#titol">
 <h4><pre>
          Totes aquestes ofertes inclouen el passatge amb avi&oacute;
         o desplaçaments i estada mínima de cinc dies per més
         informaci&oacute; consulteu les seccions de Vols i
         Excursions.
-        </pre></h4>
+    </pre></h4>
 </p>
-<br></br>
+<br>
 <div id="form">
-    <form action="index.html">
+    <form action="index.ftl">
         <h3> Demana el teu destí </h3>
         Nom:<br>
-        <input type="text" name="Nom">
+        <input name="Nom" type="text">
         <br>
         Cognoms:<br>
-        <input type="text" name="Cognoms">
+        <input name="Cognoms" type="text">
         <br>
         Adre&ccedil;a:<br>
-        <input type="text" name="Adreça">
+        <input name="Adreça" type="text">
         Codi Postal<br>
-        <input type="number" name="CodiPostal">
+        <input name="CodiPostal" type="number">
         <br>
         Tel&egrave;fon<br>
-        <input type="number" name="Telèfon">
+        <input name="Telèfon" type="number">
         <br>
         Poblaci&oacute;:<br>
         <input type="text" name="Població">
@@ -79,10 +79,10 @@
         </select>
         <br></br>
         Data d&#39;entrada:<br>
-        <input type="text" name="DtaIncial">
+        <input name="DataIncial" type="text">
         <br>
         Data de sortida:<br>
-        <input type="text" name="DataFinal">
+        <input name="DataFinal" type="text">
         <br></br>
         N.Persones:<br>
         <select name="persones">
@@ -100,23 +100,29 @@
             <option value="triple">triple</option>
         </select>
         <br></br>
+        Sortides:<br>
+        <select name="sortides">
+            <option value="per lliure">per lliure</option>
+            <option value="algunes">algunes</option>
+            <option value="totes">totes</option>
+        </select>
         <br>
         <input type="submit" id="Envia" class="float-left submit-button" value="Envia"/>
-        <br></br>
+        <br>
     </form>
 </div>
-<br></br>
-<br></br>
+<br>
+<br>
 <div id="menu2">
-    <div class="box2"><a href="Vols">Vols </a></div>
-    <div class="box2"><a href="Hotels">Hotels</a></div>
-    <div class="box2"><a href="Restaurants">Restaurants</a></div>
-    <div class="box2"><a href="LloguerVehicles">Lloguer</a></div>
-    <div class="box2"><a href="Excursions">Excursions</a></div>
-    <div class="box2"><a href="Events">Events</a></div>
+        <div class="box"><a href="Vols">Vols </a></div>
+        <div class="box"><a href="Trens">Trens </a></div>
+        <div class="box"><a href="Hotels">Hotels</a></div>
+        <div class="box"><a href="Gastronomia">Gastronomia</a></div>
+        <div class="box"><a href="Cotxes">Lloguer Vehicles</a></div>
+        <div class="box"><a href="VolsiHotels">Vols i Hotels</a></div>
 </div>
-<br></br>
-<br></br>
+<br>
+<br>
 <div>
     &copy; Oriol Carbonell Gonz&agrave;lez
 </div>

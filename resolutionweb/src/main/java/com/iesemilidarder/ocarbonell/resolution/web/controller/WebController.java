@@ -13,7 +13,7 @@ import java.util.List;
 public class WebController {
     @RequestMapping("/")
     public String index(HttpSession session, Model model) {
-        List<String> data = Arrays.asList("Vols", "Trens", "Gastronomia", "Cotxes ");
+        List<String> data = Arrays.asList("Vols","Hotels","Restaurants", "Excursions", "VolsiHotels");
         data.iterator();
         model.addAttribute("datil",data);
         final Model ip;
