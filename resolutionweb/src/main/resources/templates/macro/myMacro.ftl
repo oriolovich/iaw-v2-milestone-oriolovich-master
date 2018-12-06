@@ -2,6 +2,7 @@
     <meta charset="UTF-8">
     <title>"Voyage, voyage"</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 </#macro>
 <#macro footerLoadings>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -27,9 +28,9 @@
                         </h3>
                     </div>
                     <div>
-                        <div class="fotos"><img src="/templates/public/error/img/hotel1.jpg" alt="hotelankor" style="width:250px; height:200px"><a href="#">Hotel</a></div>
-                        <div class="fotos"><img src="/templates/public/error/img/gastronomy.jpg" alt="gastronomia" style="width:250px; height:200px"><a href="#">Men&uacute; Degustaci&oacute;</a></div>
-                        <div class="fotos"><img src="/templates/public/error/img/flight.jpg" alt="volsihotels" style="width:250px; height:200px"><a href="#">Vol</a></div>
+                        <div class="fotos"><img src="/img/hotel1.jpg" alt="hotelankor" style="width:250px; height:200px"><a href="#">Hotel</a></div>
+                        <div class="fotos"><img src="/img/gastronomy.jpg" alt="gastronomia" style="width:250px; height:200px"><a href="#">Men&uacute; Degustaci&oacute;</a></div>
+                        <div class="fotos"><img src="/img/flight.jpg" alt="volsihotels" style="width:250px; height:200px"><a href="#">Vol</a></div>
                     </div><div class="h4">
                         <h2>Trajectes</h2>
                         <input type="text" id="OInput" onkeyup="FuncioO()"
