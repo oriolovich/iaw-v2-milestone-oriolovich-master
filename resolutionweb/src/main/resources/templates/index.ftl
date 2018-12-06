@@ -14,8 +14,8 @@
     <h3>VIATGES VOYAGE ... VOLA, VIU, VEU </h3>
     <img src="public/error/img/voyage2.jpg" alt="planeta" style="width:60px; height:60px">
 </div>
-<br></br>
-<br></br>
+<br>
+<br>
 <div id="menu2">
     <div class="box"><a href="Vols">Vols </a></div>
     <div class="box"><a href="Trens">Trens </a></div>
