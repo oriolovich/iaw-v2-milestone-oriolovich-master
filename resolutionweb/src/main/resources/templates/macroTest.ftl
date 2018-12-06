@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <@macroHelper.headerLoadings title="Vay titulo de pagina"/>
+    <@macroHelper.headerLoadings title="Redéu quin més lleig"/>
 </head>
 <body>
     <@macroHelper.header/>
@@ -74,9 +74,10 @@
                                 </div>
                             </div>
                         </div>
-                 </div>
-            </div>
-        </div>
+                     </div>
+                </div>
+             </div>
+         </div>
     </main>
     <@macroHelper.footer/>
     <@macroHelper.footerLoadings/>

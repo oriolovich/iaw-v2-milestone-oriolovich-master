@@ -8,9 +8,9 @@
     <title>Voyage, voyage!!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="estilet.css">
+    <link rel="stylesheet" type="text/css" href="/templates/estilet.css">
     <title>Voyage, voyage!!</title>
-    <meta name="Viatges" content="width-device-widht, initial-scale=1">
+    <meta name="Viatges" content="width-device-width, initial-scale=1">
     <meta charset="UTF-8">
     <meta name="description" content="Turisme, oci i diversió">
     <meta name ="keywords" content="Europa, Asia, Oceania, Amèrica, Àfrica">
@@ -20,8 +20,8 @@
 <div>
     <img src="img/voyage2.jpg" alt="planeta" style="width:80px; height:60px">
 </div>
-<br></br>
-<br></br>
+<br>
+<br>
 <div>
     <div class="box"><a href="Vols">Vols </a></div>
     <div class="box"><a href="Trens">Trens </a></div>
@@ -30,7 +30,7 @@
     <div class="box"><a href="Cotxes">Lloguer Vehicles</a></div>
     <div class="box"><a href="VolsiHotels">Vols i Hotels</a></div>
 </div>
-<br></br>
+<br>
 <div>
     <h3>Oferta de benvinguda
     </h3>
@@ -39,7 +39,8 @@
     <div class="fotos"><img src="img/hotel1.jpg" alt="hotelankor" style="width:250px; height:200px"><a href="#">Hotel</a></div>
     <div class="fotos"><img src="img/gastronomy.jpg" alt="gastronomia" style="width:250px; height:200px"><a href="#">Men&uacute; Degustaci&oacute;</a></div>
     <div class="fotos"><img src="img/flight.jpg" alt="volsihotels" style="width:250px; height:200px"><a href="#">Vol</a></div>
-</div><div class="h4">
+</div
+><div class="h4">
     <h2>Trajectes</h2>
     <input type="text" id="OInput" onkeyup="FuncioO()"
            placeholder="Busca mitjans ..." title="Escriu-hi un nom">
@@ -131,23 +132,19 @@
     <div class="box"><a href="Cotxes">Lloguer Vehicles</a></div>
     <div class="box"><a href="VolsiHotels">Vols i Hotels</a></div>
 </div>
-<br></br>
-<br></br>
+<br>
+<br>
 <div>
     &copy; Oriol Carbonell Gonz&agrave;lez
 </div>
-</body>
 <div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
             integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
             crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
-    <script src="/public/helloWorld.js"></script>
+<script src="/public/helloWorld.js"></script>
 </div>
 </body>
 </html>
