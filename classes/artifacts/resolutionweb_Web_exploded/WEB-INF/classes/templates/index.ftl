@@ -8,11 +8,12 @@
     <title>Voyage, voyage!!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link  rel="stylesheet" type="text/css" href="estilet.css">
 </head>
 <body>
 <div>
     <h3>VIATGES VOYAGE ... VOLA, VIU, VEU </h3>
-    <img src="public/error/img/voyage2.jpg" alt="planeta" style="width:60px; height:60px">
+    <img src="../img/voyage2.jpg" alt="planeta" style="width:60px; height:60px">
 </div>
 <br>
 <br>
@@ -28,16 +29,16 @@
 <p id="#titol">
 <pre><h3>
       DESTINACIONS EN OFERTA ...
-      </pre></h3>
+</pre></h3>
 </p>
 <br></br>
 <br></br>
 <div>
-    <div class="box4"><img src="/templates/public/error/img/angkorwat.jpg" alt="angkowat" style="width:250px; height:200px"><p id="desti">Angkor Wat</p> <p id="#fulleto">DESMATERIALITZEU-VOS!!</p> <p id="preu1">1551 &euro; </p> </p></div>
-    <div class="box4"><img src="/templates/public/error/img/bali2.jpg" alt="illabali" style="width:250px; height:200px"><p id="desti">L&#39;Illa de Bali</p><p id="#fulleto"> ALUCINEU!!</p><p id="preu1"> 1440 &euro; </p></div>
-    <div class="box4"><img src="/templates/public/error/img/akshar.jpg" alt="templeindia" style="width:250px; height:200px"><p id="desti">Akshardham, &Iacute;ndia</p><p id="#fulleto">FACINEU-VOS!!</p><p id="preu1"> 1600 &euro; </p></div>
-    <div class="box4"><img src="/templates/public/error/img/murallaxinesa.jpg" alt="murallaxinesa" style="width:250px; height:200px"><p id="desti">Muralla Xinesa</p><p id="#fulleto">ADMIREU-VOS!! </p><p id="preu1"> 1580 &euro; </p></div>
-    <div class="box4"><img src="/templates/public/error/img/petrajordana.jpg" alt="petrajordana" style="width:250px; height:200px"><p id="desti">Petra, Jord&agrave;nia</p><p id="#fulleto"> ENAMOREU-VOS!!</p><p id="preu1"> 1300 &euro; </p></div>
+    <div class="box4"><img src="/img/angkorwat.jpg" style="width:250px; height:200px"><p id="desti">Angkor Wat</p> <p id=".fulleto">DESMATERIALITZEU-VOS!!</p> <p id="preu1">1551 &euro; </p> </p></div>
+    <div class="box4"><img src="/img/bali2.jpg" style="width:250px; height:200px"><p id="desti">L&#39;Illa de Bali</p><p id=".fulleto"> ALUCINEU!!</p><p id="preu1"> 1440 &euro; </p></div>
+    <div class="box4"><img src="/img/akshar.jpg " style="width:250px; height:200px"><p id="desti">Akshardham, &Iacute;ndia</p><p id=".fulleto">FACINEU-VOS!!</p><p id="preu1"> 1600 &euro; </p></div>
+    <div class="box4"><img src="/img/murallaxinesa.jpg" style="width:250px; height:200px"><p id="desti">Muralla Xinesa</p><p id=".fulleto">ADMIREU-VOS!! </p><p id="preu1"> 1580 &euro; </p></div>
+    <div class="box4"><img src="/img/petrajordana.jpg" style="width:250px; height:200px" ><p id="desti">Petra, Jord&agrave;nia</p><p id=".fulleto"> ENAMOREU-VOS!!</p><p id="preu1"> 1300 &euro; </p></div>
 </div>
 <br></br>
 <p id="#titol">
@@ -127,13 +128,6 @@
     &copy; Oriol Carbonell Gonz&agrave;lez
 </div>
 <div>
-<#if datil??>
-    <ul>
-        <#list datil as item>
-            <li>${item!""}</li>
-        </#list>
-    </ul>
-</#if>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>

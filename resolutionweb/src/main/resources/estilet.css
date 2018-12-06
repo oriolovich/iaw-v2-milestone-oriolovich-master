@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(img/paradise-02.jpg);
+    background-image: url(public/img/paradise-02.jpg);
     	  }
 h3{text-align: center;
    font: 30px arial;
@@ -42,7 +42,7 @@ h4{
     display: inline-block;
     width: 100px;
     height: 25px;
-    margin:0,25em;
+    margin:0.25em;
     text-align: center;
     border-radius: 25px;
     border-style: inset;
@@ -54,7 +54,7 @@ h4{
 	display: inline-block;
     width: 400px;
     height: 300px;
-    margin:0,25em;
+    margin:0.25em;
     text-align: center;
     border-radius: 25px;
     border-style: outset; 
@@ -66,19 +66,19 @@ h4{
     display: inline-block;
     width: 400px;
     height: 350px;
-    margin:0,25em;
+    margin:0.25em;
     text-align: center;
     border-radius: 25px;
     border-style: outset; 
     }
 #h4{
-   text-align: pre;
+   text-align: initial;
    font: 15px arial;
    color:rgb(249, 252, 249);
    text-shadow: 5px 5px 10px rgb(255,255,25);   
  }
 #h3{
-    text-align: pre;
+    text-align: initial;
     font: 12px arial;
     color: rgb(250, 252, 250);
     text-shadow: 5px 5px 10px rgb(255,255,25);
@@ -86,13 +86,13 @@ h4{
 #preu1{
     color:blue;
     font:18px arial; 
-    font-style: bold;
+    font-style: italic;
     }
 
 /* La intenció es deixar-lo alineat amb la resta de text però així també queda bé...*/
 #preu2{color:blue;
     font:18px arial; 
-    font-style: bold;
+    font-style: italic;
     text-align: left;
    }
 
@@ -104,7 +104,7 @@ h4{
 	border-radius: 25px;
 	width: 400px;
     height: 500px;
-    margin:0,25em;
+    margin:0.25em;
 	}
 #fotos{
     display:inline-block;
