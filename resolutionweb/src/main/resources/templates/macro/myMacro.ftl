@@ -55,8 +55,6 @@
             <p class="float-right">
                 <a href="#">Back to top</a>
             </p>
-            <div class="box3"><img src="img/crossover.jpg" alt="cotxes" style="width:225px; height:175px"><a href="#"></a> <p id="preu1"> 66 &euro;/persona </p></div>
-
         </div>
     </footer>
 </#macro>
