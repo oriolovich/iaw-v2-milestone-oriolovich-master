@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <@macroHelper.headerLoadings title="Vay titulo de pagina"/>
+    <@macroHelper.headerLoadings title="Redéu quin nom més lleig"/>
 </head>
 <body>
     <@macroHelper.header/>
@@ -11,7 +11,7 @@
         <section class="jumbotron text-center">
             <div class="container">
                 <h1 class="jumbotron-heading">Servei de Lloguer</h1>
-                <p class="lead text-muted">Els nostres preus són exegeradament incomparables. Triï la opcióp que més s'ajusti a les seves necessitats</p>
+                <p class="lead text-muted">Els nostres preus són exegeradament incomparables. Triï la opció que més s'ajusti a les seves necessitats!</p>
                 <p>
                     <a href="#" class="btn btn-primary my-2">Lloguer per dies</a>
                     <a href="#" class="btn btn-secondary my-2">Lloguer per hores</a>
@@ -74,9 +74,10 @@
                                 </div>
                             </div>
                         </div>
-                 </div>
-            </div>
-        </div>
+                     </div>
+                </div>
+             </div>
+         </div>
     </main>
     <@macroHelper.footer/>
     <@macroHelper.footerLoadings/>
